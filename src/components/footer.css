@@ -1,0 +1,62 @@
+.footer {
+    background-color: #f2f2f2;
+    padding: 40px 20px;
+    font-family: sans-serif;
+}
+
+.footer__top {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.footer__section {
+    flex: 1 1 200px;
+    margin: 10px;
+}
+
+.footer__section h3 {
+    margin-bottom: 10px;
+    font-size: 1rem;
+}
+
+.footer__section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer__section li {
+    margin-bottom: 8px;
+    color: #333;
+    cursor: pointer;
+}
+
+.footer__section input {
+    padding: 8px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 18px;
+}
+
+.footer__section button {
+    padding: 8px 12px;
+    background: black;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.footer__bottom {
+    border-top: 1px solid #ccc;
+    margin-top: 30px;
+    padding-top: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.footer__socials span {
+    margin: 0 8px;
+    cursor: pointer;
+}

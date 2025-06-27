@@ -1,0 +1,37 @@
+.navbar__top-banner {
+    background-color: black;
+    color: white;
+    text-align: center;
+    font-size: 0.8rem;
+    padding: 5px 0;
+}
+.navbar__main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+    border-bottom: 1px solid #ccc;
+}
+.navbar__logo {
+    font-size: 1.5rem;
+    font-weight: bold;
+    letter-spacing: 1px;
+}
+.navbar__menu a {
+    margin: 0 10px;
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+}
+.navbar__icons span {
+    margin-left: 15px;
+    cursor: pointer;
+    text-shadow: 4px 2px 5px rgb(42, 31, 2);
+    font-size: large;
+}
+.section input{
+    padding: 8px;
+    width: 80%;
+    margin-top: 10px;
+    border-radius: 18px;
+}
