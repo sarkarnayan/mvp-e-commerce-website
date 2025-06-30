@@ -12,7 +12,7 @@ const api = axios.create({
 export interface UserPayload {
   name: string;
   email: string;
-  phone: string;
+  number: string;
   address: string;
 }
 

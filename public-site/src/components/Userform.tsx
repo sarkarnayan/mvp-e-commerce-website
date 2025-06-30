@@ -6,7 +6,7 @@ const UserForm = () => {
   const [formData, setFormData] = useState<UserPayload>({
     name: "",
     email: "",
-    phone: "",
+    number: "",
     address: "",
   });
 
@@ -23,7 +23,7 @@ const UserForm = () => {
     try {
       await createUser(formData);
       setMessage("✅ Info submitted successfully!");
-      setFormData({ name: "", email: "", phone: "", address: "" });
+      setFormData({ name: "", email: "", number: "", address: "" });
     } catch (error) {
       console.error(error);
       setMessage("❌ Submission failed. Please try again.");
@@ -50,12 +50,14 @@ const UserForm = () => {
           required
         />
         <input
-          name="phone"
+          type="tel"
+          name="number" // 🔁 was phone
           placeholder="Phone Number"
-          value={formData.phone}
+          value={formData.number}
           onChange={handleChange}
           required
         />
+
         <textarea
           name="address"
           placeholder="Address"

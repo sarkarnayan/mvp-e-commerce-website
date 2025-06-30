@@ -21,6 +21,6 @@
     "jsx": "react-jsx"
   },
   "include": [
-    "mvp-e-commerce-website/public-site/src"
+    "./src"
   ]
 }
